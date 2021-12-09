@@ -14,7 +14,7 @@ function setup() {// runs once
 function draw() {
 
 
-var num = 24; //variable for the number of squares in the array
+var num = 4; //variable for the number of squares in the array
 
   var sideLen = windowWidth/num; //variable for the side length of each square
 
