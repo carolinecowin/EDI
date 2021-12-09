@@ -5,10 +5,6 @@ function preload() {
 }
 
 
-
-
-
-
 function setup() {// runs once
   createCanvas(windowWidth, windowWidth);
   fill("violet");
@@ -26,11 +22,11 @@ var num = 24; //variable for the number of squares in the array
 
   for (var x = 0; x < windowWidth; x = x + sideLen) {//loop to create a row of squares in the x direction
 
-image(img, 0, 0);
+image(img, x, y);
 
   }
 
-
-  noLoop();
 }
+//  noLoop();
+
 }
